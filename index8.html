@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    section{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        font-size: 72px;
+        font-weight: 600;
+        color: white;
+        opacity: .8;
+    }
+    body{
+        
+        background-size: cover;
+        background-image: linear-gradient(rgba(218, 42, 194, 0.3), rgb(98, 184, 227)),url('https://s.yimg.com/ny/api/res/1.2/0u3oXeT20M8keANYwskYsA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTUxOTtjZj13ZWJw/https://s.yimg.com/os/creatr-uploaded-images/2021-02/91333f10-6625-11eb-bde9-337d04aefcbd')
+    }
+   </style>
+</head>
+<body>
+    <section>
+        <h1 id="h1">Don't know what I'd ever do without you</h1>
+        <script>
+            const changeText = () => {
+    setTimeout(() => {
+        document.body.style.background = "linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,1)),url('https://s.yimg.com/ny/api/res/1.2/0u3oXeT20M8keANYwskYsA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTUxOTtjZj13ZWJw/https://s.yimg.com/os/creatr-uploaded-images/2021-02/91333f10-6625-11eb-bde9-337d04aefcbd')"
+        document.body.style.backgroundSize = "cover"
+        document.getElementById("h1").innerHTML = "From the beginning to the end!"
+    }, 200)
+    setTimeout(() => {
+        document.body.style.background = "linear-gradient(rgba(255, 29, 29, 0.3), rgba(231, 80, 236, 0.479)),url('https://s.yimg.com/ny/api/res/1.2/0u3oXeT20M8keANYwskYsA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTUxOTtjZj13ZWJw/https://s.yimg.com/os/creatr-uploaded-images/2021-02/91333f10-6625-11eb-bde9-337d04aefcbd')"
+        document.body.style.backgroundSize = "cover"
+        document.getElementById("h1").innerHTML = "You've always been here right beside me!"
+    }, 400)
+    setTimeout(() => {
+        document.body.style.background = "linear-gradient(rgba(2, 255, 213, 0.3), rgba(255, 23, 23)),url('https://s.yimg.com/ny/api/res/1.2/0u3oXeT20M8keANYwskYsA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTUxOTtjZj13ZWJw/https://s.yimg.com/os/creatr-uploaded-images/2021-02/91333f10-6625-11eb-bde9-337d04aefcbd')"
+        document.body.style.backgroundSize = "cover"
+        document.getElementById("h1").innerHTML = "You've always been here In my Up and Downs!"
+    }, 600)
+    setTimeout(() => {
+        document.body.style.background = "linear-gradient(rgba(255, 0, 0, 0.3), rgb(3, 255, 45)),url('https://s.yimg.com/ny/api/res/1.2/0u3oXeT20M8keANYwskYsA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTUxOTtjZj13ZWJw/https://s.yimg.com/os/creatr-uploaded-images/2021-02/91333f10-6625-11eb-bde9-337d04aefcbd')"
+        document.body.style.backgroundSize = "cover"
+        document.getElementById("h1").innerHTML = "You've always been here right beside me"
+    }, 800)
+}
+
+setInterval(changeText, 900)
+        </script>
+        </section>
+</body>
+</html>
